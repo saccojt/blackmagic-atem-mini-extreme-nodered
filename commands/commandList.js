@@ -219,8 +219,11 @@ module.exports = {
       audioMixerInput: require("./audioMixerInput.js").object(),
       audioMixerMonitor: require("./audioMixerMonitor.js").object(),
       multiViewerInput: require("./multiViewerInput.js").object(),
-      tally: require("./tally.js").object()
+      tally: require("./tally.js").object(),
       //superSource: require("./superSource.js")
+      // Atem Mini addition
+      recordingStatus: require("./recordingStatus.js").object()
+      
     }
   },
 
